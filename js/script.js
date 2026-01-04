@@ -76,5 +76,19 @@ function pupdateDisplay() {
     }
 }
 
-action.addEventListener("click", timer)
+function edgeCaser() {
+    if (work.value === "") {
+        alert("Must have time input for Work");
+        return;
+    }
+
+    if (pomodoro.value === "") {
+        alert("Must have time input for Break");
+        return;
+    }
+
+    timer()
+}
+
+action.addEventListener("click", edgeCaser)
 reset.addEventListener("click", handleReset)
