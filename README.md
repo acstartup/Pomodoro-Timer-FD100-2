@@ -24,6 +24,10 @@ A customizable, VERY SIMPLE Pomodoro timer web application built with HTML and J
 - `index.html` - Main page structure with input fields and buttons
 - `js/script.js` - Timer functionality and countdown logic
 
+## Tools/Languages (Techstack)
+- **JavaScript**
+- **HTML**
+
 ## What I Learned
 - Using 'setInterval()' and 'clearInterval()' for timer functionality
 - Using if/else conditionals
@@ -33,6 +37,14 @@ A customizable, VERY SIMPLE Pomodoro timer web application built with HTML and J
 - Working with time calculations (converting minutes to seconds, displaying minutes:seconds format)
 - Debugging JavaScript logic errors and variable scope issues
 - Working with multiple functions and loops
+
+- Customizable work session duration
+- Customizable break duration
+- Configurable number of work/break cycles (loops)
+- Start/Stop functionality to pause and resume timer
+- Reset button to clear all inputs and stop timer
+- Real-time countdown display
+- Completion alert when all cycles are finished
 
 ## Available Scripts
 
